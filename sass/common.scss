@@ -1,0 +1,90 @@
+// COMMON STYLES
+
+* {
+	box-sizing: border-box;
+}
+
+.cf::after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: 'SegoeUILight', sans-serif;
+	font-weight: $weight-norm;
+    
+	
+}
+
+.sect{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sect_foot{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+  color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: $weight-light;
+    margin: 0;
+}
+
+.lined:after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+.lined2:after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 40px;
+    height: 2px;
+    background-color: $grey;
+
+}
+
+p{
+  color: #fff;  
+}
+
+.sub{
+   
+}
+
+.btn{
+   
+    
+}
+
+a{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
