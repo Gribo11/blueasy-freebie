@@ -2975,6 +2975,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
   #portfolio .items_porf li {
     display: block;
+    padding-bottom: 15px;
   }
 }
 
