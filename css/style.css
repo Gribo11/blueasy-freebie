@@ -2844,6 +2844,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
 }
 
+@media (max-width: 480px) {
+  #header #header .main_triger {
+    display: none;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1px;
+  }
+  #header h1 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+  }
+}
+
 #log {
   background: black;
 }
@@ -2865,6 +2885,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-size: 12px;
   line-height: 18px;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  #section p {
+    font-size: 18px;
+    line-height: 16px;
+    color: white;
+  }
 }
 
 #portfolio .nav-bar {
@@ -2926,6 +2954,23 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   #portfolio .items_porf a {
     border: none;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #portfolio .sect {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  #portfolio .items_porf {
+    padding-top: 35px;
+    float: none;
+  }
+  #portfolio .nav-bar {
+    display: block;
+  }
+  #portfolio .items_porf li {
+    display: block;
   }
 }
 
@@ -3030,6 +3075,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     margin-top: 0;
     margin-left: 0;
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #sct_video .videomarg {
+    display: none;
   }
 }
 
